@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* background img */
+  background-image:url("../img/background.jpg");
+}
+
+header {
+  background-color: #efef08;
+  height: 105px;
+
+}
+
+#logo {
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 50px;
+  position: fixed;
+  top: 25px;
+  left: 500px;s
+}
+
+
+#left{
+ 
+ position: relative;
+ right: -100px;
+ top: 20px;
+width: 20%;
+ height: 250px;
+  float: left; 
+   padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #e2e214ed;
+  opacity: 1;
+}
+#right{
+  position: relative;
+  right: -300px;
+  top: 20px;
+  width: 50%;
+  float: left;
+  /* height: 180px; */
+  /* overflow: auto; */
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #e2e214ed;
+  opacity: .8;
+
+
+}
+form{
+  text-align: center;
+  margin: 20px 0px;
+}
+#myTable th , #myTable td {
+  text-align: center;
+  border: 2px solid brown;
+}
+#myTable th {
+  width: 80%;
+}
+img {
+  width: 150px;
+}
+footer{
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  background-color: #e2e214ed;
+  text-align: center;
+}
+#submit{
+  background-color: brown;
+  border-radius:5px;
+  width: 100px;
+}

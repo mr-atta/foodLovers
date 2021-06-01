@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lovers</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logo.png" alt="logo">
+        <h1>Food Lovers</h1>
+    </header>
+    <main>
+        <div id="left">
+            <form id="myForm">
+                <fieldset>
+                    <legend></legend>
+                    <label for="custName" id="custNameLable">Customer Name</label>
+                    <br>
+                    <input type="text" name="custName" id="custName">
+                    <br>
+                    <label for="foodType" id="foodTypeLable">Food Type</label>
+                    <BR>
+                    <select name="foodType" id="foodType">
+                        <option value="shawarma">Shawarma</option>
+                        <option value="burger">Burger</option>
+                        <option value="pizza">Pizza</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        <div id="right">
+            <table id="myTable">
+                <!-- <tr id="tableHead">
+                    <th>Order Image</th>
+                    <th>Order Details</th>
+                    <th>X</th>
+                </tr> -->
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>301 Entrance Exam</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
